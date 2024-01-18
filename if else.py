@@ -18,6 +18,8 @@ if(x==10):
     print('i am in if block')
 elif(x==11):   
 # elif will help in checking more than 1 if condition
+    
+
     print('i am in elif block')
 elif(x==0):
     print('Zero number')
@@ -26,7 +28,9 @@ else:
 
 
 
- x = int(input('enter the number: '))
+
+
+x = int(input('enter the number: '))
 
 if x>0:
     print("X is positive")
