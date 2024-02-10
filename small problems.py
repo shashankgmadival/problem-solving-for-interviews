@@ -45,4 +45,5 @@ for i in range (n,0,-1):
 8.
 sum=0
 for i in range(10):
+    sum=sum+1
     
