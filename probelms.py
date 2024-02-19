@@ -38,4 +38,51 @@ age= input(int('age of student '))
 grade=input('enter you grade')
 print(name,age,grade)
 
-#
+#create a list of 10 numbers and find out the odd even numbers from it 
+
+# METHOD-1
+
+numbers = [23, 16, 9, 42, 87, 5, 30, 11, 8, 55]
+odd_numbers = []
+even_numbers = []
+
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)  
+    else:
+        odd_numbers.append(num)  
+
+# Print the results
+print("Original list of numbers:", numbers)
+print("Even numbers:", even_numbers)
+print("Odd numbers:", odd_numbers)
+
+# METHOD-2
+N=[1,4,3,6,8,9]
+for i in N:
+    if i%2 == 0 :
+        print(i,"is even number")
+    else :
+        print(i,'is odd number')
+
+#METHOD-3 (FILTERING METHOD)
+
+N=(1,4,3,6,8,9)
+even_numbers =tuple(filter(lambda x: x % 2 == 0, N))
+odd_numbers = tuple(filter(lambda x: x % 2 != 0, N))
+
+print("Original list of numbers:", N)
+print("Even numbers:", even_numbers)
+print("Odd numbers:", odd_numbers)
+
+
+# FIND THE VOWELS FROM A GIVEN STRING
+
+string= "violet"
+vowels=['a','e','i','o','u']
+
+for i in string:
+    if i in vowels:
+        print(i,'is a vowel')
+    else :
+        print(i,'is not vowel')
