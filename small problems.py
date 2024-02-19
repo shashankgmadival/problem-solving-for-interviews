@@ -42,3 +42,8 @@ for i in range (0,n,2):
 n=int(input())
 for i in range (n,0,-1):
     print(i)
+8.
+sum=0
+for i in range(10):
+    sum=sum+1
+    print sum 
