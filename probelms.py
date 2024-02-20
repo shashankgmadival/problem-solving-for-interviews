@@ -100,3 +100,12 @@ arr
 
 arr.pop()
 arr
+
+
+arr=[1,2,3,4,56,67,8]
+arr.sort()
+arr
+
+arr=['shhshjdfdfdhds','sduduyd','kdfbhjd','dhfbdhfdfd']
+arr.sort(key=lambda x :len(x) )
+arr
