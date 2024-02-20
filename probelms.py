@@ -86,18 +86,17 @@ for i in string:
         print(i,'is a vowel')
     else :
         print(i,'is not vowel')
+        
 
 
-#Find out common letters between two strings Using Python
+arr=[1,23,4,6]
+print(arr)
 
-def common_letters(str1, str2):
-    set1 = set(str1)
-    set2 = set(str2)
-    common = set1.intersection(set2)
-    return common
+arr.append(200)
+arr
 
-str1 = 'shashank'
-str2 = 'sha'
-common_letters = common_letters(str1, str2)
-print(common_letters)
+arr.insert(2,10)
+arr
 
+arr.pop()
+arr
