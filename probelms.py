@@ -109,3 +109,28 @@ arr
 arr=['shhshjdfdfdhds','sduduyd','kdfbhjd','dhfbdhfdfd']
 arr.sort(key=lambda x :len(x) )
 arr
+
+
+# SWAP two numbers
+
+a=10
+b=20
+
+print(a)
+print(b)
+c=a
+a=b
+
+b=c
+print(a)
+print(b)
+
+another method
+
+a=10
+b=20
+
+a,b=b,a
+
+print(a)
+print(b)
