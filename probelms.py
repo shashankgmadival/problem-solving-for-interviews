@@ -134,3 +134,15 @@ a,b=b,a
 
 print(a)
 print(b)
+
+
+
+# checking wheather the number is prime or not 
+
+list=[1,2,4,8,3,13,99,80]
+
+for i in list:
+    if i%2 == 0:
+        print (i,"is prime number")
+    else :
+        print(i,"is not prime number ")
