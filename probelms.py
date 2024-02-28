@@ -113,6 +113,8 @@ arr
 
 # SWAP two numbers
 
+Soltuion:
+
 a=10
 b=20
 
@@ -139,6 +141,8 @@ print(b)
 
 # checking wheather the number is prime or not 
 
+Soltuion:
+
 list=[1,2,4,8,3,13,99,80]
 
 for i in list:
@@ -146,3 +150,26 @@ for i in list:
         print (i,"is prime number")
     else :
         print(i,"is not prime number ")
+
+#Write a Python program to reverse a string.
+
+Soltuion:
+
+string='hello world'
+reverse=string[::-1]
+reverse
+
+#Write a Python program to find the common elements between two lists.
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+
+common_elements = [element for element in list1 if element in list2]
+print("Common elements:", common_elements)
+
+# Write a Python program to find the second largest number in a list.
+list=[1,22,33,45,67,19,30,3,10]
+
+list.sort()
+second_largest_number=list[-2]
+second_largest_number
