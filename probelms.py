@@ -1,5 +1,4 @@
-# write a program to display a persons name,age and
-#address in three different lines 
+# write a program to display a persons name,age and address in three different lines 
 
 name='shashank '
 age=36
