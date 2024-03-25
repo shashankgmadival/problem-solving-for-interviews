@@ -173,3 +173,27 @@ list=[1,22,33,45,67,19,30,3,10]
 list.sort()
 second_largest_number=list[-2]
 second_largest_number
+
+
+
+Write a program to find the given number is positive or negative
+num = float(input("Enter a number: "))
+# Input: 1.2
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+
+#output: Positive number
+   
+
+Write a program to find the sum of two numbers.
+
+num1 = int(input("Enter Number1: "))
+# Input1 : 21
+num2 = int(input("Enter Number2: "))
+#  Input2 : 11
+print("sum of given numbers is:", num1 + num2)
+#  Output2 : 32 
